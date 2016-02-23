@@ -50,9 +50,6 @@ CURRENT_DIR="$(dirname ${scriptfile})"
 	fi
 
 ### Actions ###
-shw_info "Start root instance"
-su root
-
 shw_info "Doing updates..."
 sudo apt -y update
 
