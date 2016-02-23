@@ -16,7 +16,9 @@ For now, you are able to:
 
 
 From your home directory, execute:
-    wget https://raw.githubusercontent.com/wikijm/Linux-Scripts/master/menu.sh
-    chmod +x menu.sh
-    ./menu.sh
-    rm ./menu.sh
+```
+wget https://raw.githubusercontent.com/wikijm/Linux-Scripts/master/menu.sh
+chmod +x menu.sh
+./menu.sh
+rm ./menu.sh
+```
