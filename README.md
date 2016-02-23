@@ -16,4 +16,7 @@ For now, you are able to:
 
 
 From your home directory, execute:
-curl -Lo- https://raw.githubusercontent.com/wikijm/Linux-Scripts/master/menu.sh | bash
+    wget https://raw.githubusercontent.com/wikijm/Linux-Scripts/master/menu.sh
+    chmod +x menu.sh
+    ./menu.sh
+    rm ./menu.sh
