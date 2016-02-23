@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Linux-scripts by wikijm</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Linux-scripts</h1>
+        <h2>Scripts for Linux</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/wikijm/Linux-Scripts/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/wikijm/Linux-Scripts/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/wikijm/Linux-Scripts" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="linux" class="anchor" href="#linux" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Linux</h1>
+
+<p>Collection of scripts for Linux hosts.</p>
+
+<p>Use "menu.sh" script to automatize these actions:</p>
+
+<ul>
+<li>Select script to execute</li>
+<li>Download selected script</li>
+<li>Execute selected script</li>
+<li>Erase selected script after execution</li>
+</ul>
+
+<p>For now, you are able to:</p>
+
+<ul>
+<li>Add Kali Linux sources (Add a .sourcelist file who contains kali tool forensics packages without installing the full Kali-linux distribution)</li>
+<li>Securize SSH (Modify sshd_configuration parameters and install "denyhosts" package)</li>
+<li>Install bettercap (modular, portable and easily extensible MITM framework) and dependencies</li>
+</ul>
+
+<p>From your home directory, execute:</p>
+
+<pre><code>wget https://raw.githubusercontent.com/wikijm/Linux-Scripts/master/menu.sh
+chmod +x menu.sh
+./menu.sh
+rm ./menu.sh
+</code></pre>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
