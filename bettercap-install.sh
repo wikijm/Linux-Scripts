@@ -8,7 +8,7 @@
 # 
 #       OPTIONS:  ---
 #  REQUIREMENTS:  * Have Internet access on host
-#				  * Be able to start this script as root
+#		  * Be able to start this script as root
 #          BUGS:  ---
 #         NOTES:  ---
 #        AUTHOR:  Jean-Marc ALBERT
