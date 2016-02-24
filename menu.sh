@@ -85,7 +85,7 @@ play_with_GitHub_script ()	{
          select choice in "${menu[@]}"
          do
             if [[ -z "$choice" ]]
-               then shw_err "\nInvalid title"
+               then shw_err "Invalid title"
                else eval ${fonc[$REPLY]}
             fi
             break
