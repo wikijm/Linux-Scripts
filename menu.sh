@@ -93,9 +93,9 @@ play_with_GitHub_script ()	{
       done
     }
     #------------------------------------------------
-    # Securize SSH
+    # Add Kali repository on sources
     #------------------------------------------------
-    SecurizeSSH()
+    AddKaliRepository()
     {
 		SCRIPTURL="https://raw.githubusercontent.com/wikijm/Linux-Scripts/master/AddKaliSources.sh"
 		SCRIPTFILENAME="AddKaliSources.sh"
@@ -142,6 +142,7 @@ play_with_GitHub_script ()	{
     #================================================
     Menu \
       "+++ Menu +++" \
+      Add Kali repository "AddKaliRepository" \
       SecurizeSSH "Securize SSH" \
       Bettercap-Install "Bettercap - Installation" \
       Raspbbery_Bootstrap-install "Raspberry - Bootstrap-install" \
