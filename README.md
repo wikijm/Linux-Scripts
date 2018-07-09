@@ -2,6 +2,8 @@
 
 Collection of scripts for Linux hosts.
 
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoff.ee/WikiJM)
+
 Use "menu.sh" script to automatize these actions:
   * Select script to execute
   * Download selected script
